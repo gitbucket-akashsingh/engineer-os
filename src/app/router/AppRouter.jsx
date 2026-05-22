@@ -7,7 +7,7 @@ import RoadmapPage from "@/pages/RoadmapPage";
 import ProjectsPage from "@/pages/ProjectsPage";
 import ArchitecturePage from "@/pages/ArchitecturePage";
 import RecruiterPage from "@/pages/RecruiterPage";
-import TimelinePage from "@/pages/TimelinePage";
+import TimelinesPage from "@/pages/TimelinesPage";
 
 function AppRouter() {
   return (
@@ -19,7 +19,7 @@ function AppRouter() {
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/architecture" element={<ArchitecturePage />} />
           <Route path="/recruiter" element={<RecruiterPage />} />
-          <Route path="/timeline" element={<TimelinePage />} />
+          <Route path="/timeline" element={<TimelinesPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

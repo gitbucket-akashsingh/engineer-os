@@ -6,7 +6,7 @@ import { timelineData } from "@/shared/data/timelineData";
 
 import { fadeInUp, staggerContainer } from "@/shared/utils/motion";
 
-function TimelinePage() {
+function TimelinesPage() {
   return (
     <motion.div
       className="space-y-10"
@@ -36,4 +36,4 @@ function TimelinePage() {
   );
 }
 
-export default TimelinePage;
+export default TimelinesPage;
